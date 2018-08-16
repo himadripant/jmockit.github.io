@@ -137,7 +137,7 @@
 </p>
 <pre><code>@Test
 public void applyingAFakeClass() throws Exception {
-   <strong>new FakeLoginContext()</strong>);
+   <strong>new FakeLoginContext()</strong>;
 
    // Inside an application class which creates a suitable <span class="type">CallbackHandler</span>:
    new LoginContext("test", callbackHandler).login();
